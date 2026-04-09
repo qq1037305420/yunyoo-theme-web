@@ -1,5 +1,9 @@
 # 魔方财务 YUNYOO 主题模板 [lxc佛系](https://lxc.idcfx.net) 定制版
 
+![1](https://github.com/qq1037305420/yunyoo/blob/main/theme.jpg)
+
+![2](https://github.com/qq1037305420/yunyoo/blob/main/image.png)
+
 适配了后台配置
 
 ## 设置 => 基础设置
@@ -28,9 +32,6 @@ qq qq|qq群加群链接
 
 标签可设置为 HTML
 
-![1](https://github.com/qq1037305420/yunyoo/blob/main/theme.jpg)
-
-![2](https://github.com/qq1037305420/yunyoo/blob/main/image.png)
 ## 介绍
 
 YUNYOO Themes 是一款基于魔方财务系统的主题模板。拥有直观简洁的界面设计，在简洁的同时保持顺畅的使用体验。
