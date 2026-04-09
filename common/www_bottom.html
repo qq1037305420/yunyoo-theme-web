@@ -1,0 +1,17 @@
+<!-- Widget 2 START -->
+<div class="col-lg-8 ms-auto">
+    <div class="row g-4">
+        <!-- Link block -->
+        {volist name="www_bottom" id="nav"}
+        <div class="col-6 col-md-3">
+            <h5 class="text-white mb-2 mb-md-4">{$nav.name}</h5>
+            <ul class="nav flex-column text-primary-hover">
+                {volist name="nav.son" id="menu"}
+                <li class="nav-item"><a class="nav-link text-muted" href="{$menu.url}">{$menu.name}</a></li>
+                {/volist}
+            </ul>
+        </div>
+        {/volist}
+    </div>
+</div>
+<!-- Widget 2 END -->

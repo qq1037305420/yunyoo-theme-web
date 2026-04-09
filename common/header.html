@@ -1,0 +1,50 @@
+<!-- 顶部条幅-->
+<header class="navbar-light">
+    <nav class="navbar navbar-expand-xl">
+        <div class="container">
+            <button class="navbar-toggler me-3 me-xl-0 p-0 " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-animation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <a class="me-auto navbar-brand" href="/">
+                <img class="light-mode-item " src="{$setting.web_logo_home}" alt="logo" height="50" width="50">
+                <img class="dark-mode-item" src="{$setting.web_logo_home}" alt="logo" height="50" width="50">
+                <!-- <strong></strong>{$setting.company_name}</strong> -->
+            </a>
+            <!--Responsive category toggler-->
+            <!--<button class="navbar-toggler ms-sm-auto mx-3 me-md-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCategoryCollapse" aria-controls="navbarCategoryCollapse" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-link"></i></button>-->
+            <!--Main navbar START-->
+            {include file="common/www_top"/}
+            <ul class="nav flex-row align-items-center list-unstyled ms-xl-auto">
+                <li class="nav-item modeswitch-mini me-2" id="darkModeSwitch">
+                    <div class="modeswitch-mini-item">
+                        <div class="modeswitch-mini-icon"></div>
+                    </div>
+                </li>
+                <!--Language dropdown START-->
+                <!-- <li class="nav-item dropdown"><a class="btn btn-sm btn-primary-soft mb-0" href="#" id="languageDropdown"
+              role="button" data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown"
+              aria-expanded="false"><i class="fa-solid fa-language fa-lg"></i></a>
+            <ul class="dropdown-menu dropdown-animation dropdown-menu-end min-w-auto mt-2"
+              aria-labelledby="languageDropdown">
+              <li><a class="dropdown-item me-4" href="/"><img class="fa-fw me-2" src="/themes/web/yunyoo/assets/img/country/CN.png"
+                    alt="">简体中文</a></li>
+              <li><a class="dropdown-item me-4" href="#"><img class="fa-fw me-2" src="/themes/web/yunyoo/assets/img/country/HK.png"
+                    alt="">繁體中文</a></li>
+              <li><a class="dropdown-item me-4" href="#"><img class="fa-fw me-2" src="/themes/web/yunyoo/assets/img/country/US.png"
+                    alt="">English</a></li>
+            </ul>
+          </li> -->
+                <li class="nav-item ms-2 d-none d-sm-block"><a href="/login" class="btn btn-sm btn-primary-soft mb-0"><i
+                            class="fa-solid fa-right-to-bracket me-2"></i>登录</a></li>
+                <li class="nav-item ms-2 d-none d-sm-block"><a href="/register" class="btn btn-sm btn-primary mb-0"><i
+                            class="fa-solid fa-right-to-bracket me-2"></i>注册</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>

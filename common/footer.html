@@ -1,0 +1,107 @@
+<!-- Footer START -->
+<footer class="bg-dark pt-5">
+    <div class="container">
+        <!-- Row START -->
+        <div class="row g-4">
+            <!-- Widget 1 START -->
+            <div class="col-lg-3">
+                <!-- logo -->
+                <a href="index.html">
+                    <img class="h-50px" src="{$setting.web_logo_home}" alt="logo">
+                    <!--<img class="col-6 col-sm-6 col-lg-12" src="/themes/web/yunyoo/assets/img/logo/LOGO.svg" alt="logo" >-->
+                </a>
+                <p class="my-3 text-muted">{$setting.company_name}</p>
+                <!--<p class="mb-2"><a href="" class="text-muted text-primary-hover"><i class="fas fa-phone"></i></i></a> </p>-->
+                <!--<p class="mb-0"><a href="" class="text-muted text-primary-hover"><i class="fas fa-envelope"></i></a></p>-->
+                <p style="line-height:1.8em;" class="mb-0"><a href="mailto:{$setting.company_email}"
+                        class="text-muted text-primary-hover"><i class="fas fa-envelope"> 支持:
+                            &nbsp;</i>{$setting.company_email}
+                    </a>
+                </p>
+                {php}list($qq,$qq_link)=explode('|', $setting['company_qq']){/php}
+                <p style="line-height:1.8em;" class="mb-0">
+                    <a href="{$qq_link}" target="_blank" class="text-muted text-primary-hover"><i
+                            class="fas fa-commenting"></i><strong> QQ群: {$qq}&nbsp;</strong></a>
+                </p>
+                <!-- <p style="line-height:1.8em;" class="mb-0"><a href="https://t.me/huan_cloud"
+              class="text-muted text-primary-hover"><i class="fas fa-commenting"> 官方TG群: &nbsp;</i>https://t.me/huan_cloud</a>
+          </p> -->
+
+
+            </div>
+            <!-- Widget 1 END -->
+
+            {include file="common/www_bottom" /}
+
+        </div><!-- Row END -->
+
+        {include file="common/f_links" /}
+
+
+        <!-- Divider -->
+        <hr class="mt-4 mb-0">
+
+        <!-- Bottom footer -->
+        <div class="row">
+            <div class="container">
+                <div class="d-lg-flex justify-content-between align-items-center py-3 text-center text-lg-start">
+                    <!-- copyright text -->
+                    <div class="text-muted text-primary-hover"> Copyrights <a href="#" target="_blank"
+                            class="text-muted">©2023-{:date('Y')} {$setting.company_name} </a>. All rights reserved. </div>
+                    <!-- copyright links-->
+                    {php}list($icp,$gongan,$idc)=explode('|', $setting['company_record']){/php}
+                    <div class="beian-info mb-0">
+
+                        {if $idc}
+                        <a target="_blank" class="beian-link text-muted"
+                            href="https://dxyw.miit.gov.cn/dxxzsp/xkz/xkzgl/resource/qiyesearch.jsp?num={$idc}&amp;type=xuke">
+                            <img height="18" width="18" lazy loading="lazy"
+                                src="https://25y.cn/themes/web/www/assets/img/icons/bg2.png" alt="增值电信许可证图标">
+                            <span>增值电信许可证：{$idc}</span>
+                        </a>
+                        {/if}
+                        {if $gongan}
+                        <a target="_blank" class="beian-link text-muted"
+                            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode={$gongan}">
+                            <img height="18" width="18" lazy loading="lazy"
+                                src="https://25y.cn/themes/web/www/assets/img/icons/bg1.png" alt="公安备案图标">
+                            <span>{$gongan}</span>
+                        </a>
+                        {/if}
+                        {if $icp}
+                        <a target="_blank" class="beian-link text-muted" href="https://beian.miit.gov.cn">
+                            <img height="18" width="18" lazy style="transform: translateY(-1.5px);" loading="lazy"
+                                src="https://25y.cn/themes/web/www/assets/img/icons/bg1.png" alt="ICP备案图标">
+                            <span>{$icp}</span>
+                        </a>
+                        {/if}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- =======================
+Footer END -->
+
+<!-- Back to top -->
+<div class="back-top"></div>
+
+<!-- Bootstrap JS -->
+<script data-cfasync="false"
+    src="https://yunyoo.cc/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="/themes/web/yunyoo/assets/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+<!-- Vendors -->
+<script src="/themes/web/yunyoo/assets/js/tiny-slider.js" type="text/javascript"></script>
+<script src="/themes/web/yunyoo/assets/js/glightbox.js" type="text/javascript"></script>
+<script src="/themes/web/yunyoo/assets/js/flatpickr.min.js" type="text/javascript"></script>
+<script src="/themes/web/yunyoo/assets/js/choices.min.js" type="text/javascript"></script>
+
+<!-- ThemeFunctions -->
+<script src="/themes/web/yunyoo/assets/js/functions.js" type="text/javascript"></script>
+
+
+</body>
+
+</html>
