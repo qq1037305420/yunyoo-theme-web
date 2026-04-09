@@ -5,23 +5,30 @@
 ## 设置 => 基础设置
 
 qq qq|qq群加群链接
+
 备案号 备案|工单|idc
+
 描述 首页描述
+
 公司介绍 首页介绍
+
 隐私条款地址 /tos.html
+
 服务条款地址 /privacy.html
+
 背景图地址 支持 webp webm (需换clientarea文件）
 
 ## 设置 => 导航管理
 
 顶部为顶部导航 只支持2级
+
 底部为底部导航 只支持2级
 
 ## 设置 => 友情链接
 
 标签可设置为 HTML
 
-![1](https://raw.githubusercontent.com/qq1037305420/yunyoo-web-theme/refs/heads/main/theme.jpg)
+![1](https://github.com/qq1037305420/yunyoo/blob/main/theme.jpg)
 
 ## 介绍
 
