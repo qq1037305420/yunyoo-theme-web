@@ -30,6 +30,7 @@ qq qq|qq群加群链接
 
 ![1](https://github.com/qq1037305420/yunyoo/blob/main/theme.jpg)
 
+![2](https://github.com/qq1037305420/yunyoo/blob/main/image.png)
 ## 介绍
 
 YUNYOO Themes 是一款基于魔方财务系统的主题模板。拥有直观简洁的界面设计，在简洁的同时保持顺畅的使用体验。
