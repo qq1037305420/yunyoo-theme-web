@@ -1,5 +1,28 @@
-# 魔方财务 YUNYOO 主题模板
-![1](https://raw.githubusercontent.com/huancloud/idcsmart-yunyoo-web/refs/heads/main/theme.jpg)
+# 魔方财务 YUNYOO 主题模板 [lxc佛系](https://lxc.idcfx.net) 定制版
+
+适配了后台配置
+
+## 设置 => 基础设置
+
+qq qq|qq群加群链接
+备案号 备案|工单|idc
+描述 首页描述
+公司介绍 首页介绍
+隐私条款地址 /tos.html
+服务条款地址 /privacy.html
+背景图地址 支持 webp webm (需换clientarea文件）
+
+## 设置 => 导航管理
+
+顶部为顶部导航 只支持2级
+底部为底部导航 只支持2级
+
+## 设置 => 友情链接
+
+标签可设置为 HTML
+
+![1](https://raw.githubusercontent.com/qq1037305420/yunyoo-web-theme/refs/heads/main/theme.jpg)
+
 ## 介绍
 
 YUNYOO Themes 是一款基于魔方财务系统的主题模板。拥有直观简洁的界面设计，在简洁的同时保持顺畅的使用体验。
@@ -17,7 +40,8 @@ YUNYOO Themes 会持续维护更新和优化完善，不断提供更多的新功
 - **简洁易用**：直观界面设计，简化操作流程。
 - **优雅美观**：顺畅交互体验，现代视觉风格。
 - **开源免费**：遵循开源协议，自由使用修改。
-- 
+-
+
 ## 更多
 
 - 配套的用户中心模板：[idcsmart-yunyoo-clientarea](https://github.com/yunyoo-opensource/idcsmart-yunyoo-clientarea)
