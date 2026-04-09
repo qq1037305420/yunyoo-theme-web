@@ -319,4 +319,9 @@ Action boxes END -->
       window.addEventListener('resize', handleResize);
     });
   </script>
+  {php}
+  $web_widgets = html_entity_decode(configuration('web_widgets'), ENT_QUOTES | ENT_HTML5, 'UTF-8');
+  {/php}
+
+  {:html_entity_decode($web_widgets, ENT_QUOTES | ENT_HTML5, 'UTF-8')}
   {include file="common/footer" /}
